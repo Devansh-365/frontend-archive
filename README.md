@@ -1,23 +1,54 @@
-# Next.js + Tailwind CSS Example
+## Screenshots
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+![App Screenshot](https://camo.githubusercontent.com/28cf2beb37f5eb40fa0c53d1c055dd1a3c3a1ec1f9a4b114411dceb7159a2bc9/68747470733a2f2f756361726563646e2e636f6d2f61383564623163392d343635322d343835652d623530372d3431393937613731303665392f66726f6e74656e6463617264696f2e77656270)
 
-## Deploy your own
+### Demo
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+Insert gif or link to demo
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+# WELCOME TO FRONTEND ARCHIVE 💪
 
-## How to use
+Hi, thanks for stopping by! Front-End Archive is a catalogue of projects, challenges & experiments. I decided to make a website that curates some of the best stuff I have built during my self-learning journey.
+The tech stack I use is fairly consistent, so on this website, you would see projects built with the following technologies:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+- ⚡️ Next.js
+- ⚛️ React
+- ⛑ TypeScript
+- 🤔 JavaScript
+- 👀 Sanity
+- ✅ HTML & CSS
+- 🤝 Chakra UI
+
+Im always learning new stuff, so this is bound to change. ✨
+
+### Tech Stack
+
+**Client:** TypeScript, Next.Js, TailwindCSS
+
+**Server:** Sanity
+
+### Features
+
+- Light/dark mode toggle
+- Responsive Design
+- Archive for frontend projects
+
+### Development
+
+To start the project locally, clone the repo & run:
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
+yarn && yarn dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Open `http://localhost:3000` with your browser to see the result.
+
+### Scripts
+
+- `yarn dev` — Starts the application in development mode at `http://localhost:3000`.
+- `yarn build` — Creates an optimized production build of your application.
+- `yarn start` — Starts the application in production mode.
+- `yarn type-check` — Validate code using TypeScript compiler.
+- `yarn lint` — Runs ESLint for all files in the `src` directory.
+- `yarn format` — Runs Prettier for all files in the `src` directory.
+- `yarn commit` — Run commitizen. Alternative to `git commit`.
