@@ -9,6 +9,16 @@ export default {
       type: 'string',
     },
     {
+      name: 'codeLink',
+      title: 'CodeLink',
+      type: 'url',
+    },
+    {
+      name: 'liveLink',
+      title: 'LiveLink',
+      type: 'url',
+    },
+    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
@@ -36,6 +46,12 @@ export default {
       title: 'Categories',
       type: 'array',
       of: [{type: 'reference', to: {type: 'category'}}],
+    },
+    {
+      title: 'CategoryOg',
+      name: 'categoryog',
+      type: 'array',
+      of: [{type: 'string'}]
     },
     {
       name: 'publishedAt',

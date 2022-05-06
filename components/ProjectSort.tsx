@@ -52,18 +52,22 @@ const Tags = styled.button`
   }
 `;
 
-const ProjectSort:React.FC = () => {
-    
-    return (
-        <Container>
-            <Tags>All</Tags>
-            <Tags>React</Tags>
-            <Tags>Next</Tags>
-            <Tags>Javascript</Tags>
-            <Tags>HTML</Tags>
-            <Tags>Sanity</Tags>
-            <Tags>Firebase</Tags>
-        </Container>
-    )
+interface SortProps {
+  filter: (cata: string) => void;
 }
+
+const ProjectSort = ({ filter }: SortProps) => {
+  return (
+    <Container>
+      <Tags onClick={() => filter(`ALL`)}>ALL</Tags>
+      <Tags onClick={() => filter(`REACT`)}>REACT</Tags>
+      <Tags onClick={() => filter(`Next`)}>NEXT</Tags>
+      <Tags onClick={() => filter(`Sanity`)}>Sanity</Tags>
+      <Tags onClick={() => filter(`Javascript`)}>JAVASCRIPT</Tags>
+      <Tags onClick={() => filter(`TYPESCRIPT`)}>TYPESCRIPT</Tags>
+      <Tags onClick={() => filter(`HTML`)}>HTML</Tags>
+      <Tags onClick={() => filter(`SCSS`)}>SCSS</Tags>
+    </Container>
+  );
+};
 export default ProjectSort;
