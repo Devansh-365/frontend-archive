@@ -5,7 +5,6 @@ export interface Assets {
   export interface ProjectProps {
     id: string;
     title: string;
-    poster: Assets;
     codeLink: string;
     liveLink: string;
     categoryog: string[];

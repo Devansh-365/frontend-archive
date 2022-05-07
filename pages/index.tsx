@@ -7,6 +7,7 @@ import { ProjectsProps } from '../types/types';
 import {client} from '../lib/sanityClient'
 import ProjectCard from '../components/ProjectCard'
 import { useState } from 'react'
+import Link from 'next/link'
 
 export default function Home({ projects }: ProjectsProps)  {
 

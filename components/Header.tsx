@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 
 interface HeaderProps {
     length: number;
@@ -9,10 +10,12 @@ const Header = ({ length }: HeaderProps) => {
     return (
         <div className='pb-[2rem] flex justify-between'>
             <div>
+                <Link href='/api/hello'>
                 <h1 className='font-semibold text-2xl md:text-4xl lg:text-6xl'>
                 WELCOME TO <span className='bg-yellow-400 text-[#101010] p-4 font-bold transition-all ease-in-out hover:bg-[#39ff14] duration-300'>FRONTEND ARCHIVE</span>
                 {` `}
                 </h1>
+                </Link>
                 <p className='text-[1rem] md:text-[1.2rem] lg:text-[1.5rem] lg:pt-[0.5rem] font-light mt-4'>
                     <a className='font-bold border-b-2 border-b-yellow-400 border-solid	' href="/" target="_blank">{`DEVANSH'S`}</a>
                     {` `}

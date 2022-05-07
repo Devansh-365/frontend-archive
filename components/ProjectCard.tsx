@@ -1,7 +1,6 @@
 import React from 'react';
-import { client, urlFor } from '../lib/sanityClient';
+import { urlFor } from '../lib/sanityClient';
 import { ProjectsProps } from '../types/types';
-import Link from 'next/link'
 
 const ProjectCard = ({ projects }: ProjectsProps) => {
     return (
@@ -24,7 +23,7 @@ const ProjectCard = ({ projects }: ProjectsProps) => {
                 <div className='p-[1.5rem]'>
                     <div className='hidden md:flex gap-3 font-bold pb-2'>
                     {project.categoryog.map((cata: any) => (
-                    <div >{cata}</div>
+                    <div className='flex px-1 py-[0.625rem] items-center justify-center transition-all duration-300 ease-in-out font-semibold text-[#22222] text-[0.6rem] md:text-[0.7rem]' >{cata}</div>
                     ))}
                     </div>
                     <h2 className='text-[2.5rem] font-semibold text-yellow-400 md:text-[1.5rem]'>{project.title}</h2>
